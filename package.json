@@ -1,19 +1,37 @@
 {
-  "name": "benjaminmurphy",
+  "name": "benjaminmurphy.me",
   "version": "1.0.0",
-  "description": "Personal website written in Javascript.",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:benjaminmurphy/benjaminmurphy.me.git"
+    "url": "git+https://github.com/benjaminmurphy/benjaminmurphy.me.git"
   },
   "author": "Benjamin Murphy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benjaminmurphy/benjaminmurphy.me/issues"
   },
-  "homepage": "https://github.com/benjaminmurphy/benjaminmurphy.me"
+  "homepage": "https://github.com/benjaminmurphy/benjaminmurphy.me#readme",
+  "dependencies": {
+    "angular": "*",
+    "angular-cookies": "*",
+    "angular-route": "*",
+    "aws-sdk": "*",
+    "bootstrap": "*",
+    "express": "*",
+    "forever": "*",
+    "gulp": "*",
+    "gulp-sass": "*",
+    "image-size": "*",
+    "justified-layout": "*",
+    "mongodb": "*",
+    "normalize.css": "*",
+    "remove": "*",
+    "underscore": "*",
+    "winston": "*"
+  }
 }
